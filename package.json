@@ -1,5 +1,5 @@
 {
-  "name": "swiper",
+  "name": "@tossteam/swiper",
   "version": "4.3.0",
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "main": "dist/js/swiper.js",
