@@ -1,6 +1,6 @@
 {
   "name": "@tossteam/swiper",
-  "version": "4.3.1",
+  "version": "4.3.3",
   "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
   "main": "dist/js/swiper.js",
   "jsnext:main": "dist/js/swiper.esm.bundle.js",
@@ -12,8 +12,7 @@
     "prod": "cross-env NODE_ENV=production gulp playground && cross-env NODE_ENV=production gulp server",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "test": "npm run lint && npm run build:dev",
-    "postinstall": "node -e \"console.log('\\u001b[35m\\u001b[1mLove Swiper? Support Vladimir\\'s work by donating or pledging on patreon:\\u001b[22m\\u001b[39m\\n > \\u001b[32mhttps://patreon.com/vladimirkharlampidi\\u001b[0m\\n')\""
+    "test": "npm run lint && npm run build:dev"
   },
   "files": [
     "dist",
